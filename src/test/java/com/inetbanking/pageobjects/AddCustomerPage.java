@@ -20,7 +20,7 @@ public class AddCustomerPage {
 	@CacheLookup
 	WebElement lnkAddNewCustomer;
 
-	@FindBy(how = How.NAME, using = "name")
+	@FindBy(how = How.XPATH, using = "//*[@name='name']")
 	@CacheLookup
 	WebElement txtCustomerName;
 
